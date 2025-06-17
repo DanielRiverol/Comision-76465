@@ -1,0 +1,16 @@
+{
+  "contenidoObj": {
+    "name": "ejercicio5",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "start": "node --watch index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": ""
+  },
+  "contenidoString": "{\n  \"name\": \"ejercicio5\",\n  \"version\": \"1.0.0\",\n  \"main\": \"index.js\",\n  \"scripts\": {\n    \"start\": \"node --watch index.js\",\n    \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\"\n  },\n  \"keywords\": [],\n  \"author\": \"\",\n  \"license\": \"ISC\",\n  \"description\": \"\"\n}\n"
+}

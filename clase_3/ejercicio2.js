@@ -34,7 +34,8 @@ class UsersManager {
     if (!passwordEsperado) console.log("Error de crendeciales");
 
     if (passwordEsperado === userFound.password) {
-      return "Logueado";
+      console.log("Logueado");
+      
     } else {
       console.log("Error de crendeciales!!!!!!");
     }
@@ -45,14 +46,15 @@ const manager = new UsersManager();
 manager.crearusuario({
   nombre: "Fede",
   apellido: "Lopez",
-  password: "password123",
+  password: "password",
 });
 manager.crearusuario({
   nombre: "Lucia",
   apellido: "Martinez",
-  password: "password123",
+  password: "papa1",
 });
 
 // manager.mostrarUsuarios()
 
-manager.validarUsuario("Fede", "password123");
+manager.validarUsuario("Fede", "password");
+manager.validarUsuario("Lucia", "papa1");

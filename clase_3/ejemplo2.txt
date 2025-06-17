@@ -1,0 +1,2 @@
+Soy un mensaje desde una funcion con promesas
+Nuevo mensaje
